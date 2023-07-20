@@ -7,6 +7,7 @@ function Header() {
         <div className='header'>
             <img 
                 className="header_logo"
+                alt="amazon-logo"
                 src="https://m.media-amazon.com/images/G/01/gc/designs/livepreview/amazon_dkblue_noto_email_v2016_us-main._CB468775337_.png"/>
             <div className="header_search">
                 <div className="header_option">
