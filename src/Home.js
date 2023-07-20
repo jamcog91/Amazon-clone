@@ -1,4 +1,5 @@
 import "./Home.css";
+import Product from "./Product";
 
 function Home() {
     return(
@@ -10,7 +11,7 @@ function Home() {
                     alt="amazon__background"
                 />
                 <div className="home__row"> 
-                    {/* {product} */}
+                    <Product />
                     {/* {product} */}
                 </div>
                 <div className="home__row"> 
