@@ -1,24 +1,27 @@
 import "./Product.css";
+import StarRateIcon from '@mui/icons-material/StarRate';
 
-function Product() {
+function Product({ title, price, image, rating }) {
     return(
         <div className="product">
             <div className="product__info">
-                <p>Amazon Basic Cast Iron Kettlebell</p>
+                <p>{title}</p>
                 <p className="product__price">
                     <small>$</small>
-                    <strong>35.95</strong>
+                    <strong>{price}</strong>
                 </p>
                 <div className="product__rating">
-                    <p>stars</p>
+                    {Array(rating).fill().map((_, i) => (
+                        <StarRateIcon />
+                    ))}
                 </div>
                 <img 
                     className="product__img"
-                    src="https://images-na.ssl-images-amazon.com/images/I/81bRHNpK3fL._AC_UL232_SR232,232_.jpg"
+                    src={image}
                     alt="kettle_bell"
                 />
+                <button className="product__button">Add to Basket</button>
             </div>
-            <button>Add to Basket</button>
         </div>
     );
 };
