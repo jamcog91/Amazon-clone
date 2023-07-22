@@ -1,7 +1,21 @@
 import "./Product.css";
 import StarRateIcon from '@mui/icons-material/StarRate';
 
-function Product({ title, price, image, rating }) {
+function Product({ id,  title, price, image, rating }) {
+    const [state, dispatch] = useStateValue();
+
+    const addToBasket = () => {
+        dispatch({
+            type: 'ADD TO BASKET',
+            item: {
+                id: id,
+                title: title,
+                image: image,
+                price: price,
+                rating: rating
+            },
+        });
+    };
     return(
         <div className="product">
             <div className="product__info">
