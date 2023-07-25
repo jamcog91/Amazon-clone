@@ -44,7 +44,6 @@ function Home() {
                     />
                 </div>
                 <div className="home__row"> 
-                    {/* {product} */}
                     <Product 
                         id={5}
                         title="Amazon Basics Adujustable Weight Workout Bench"

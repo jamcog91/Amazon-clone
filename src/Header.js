@@ -17,7 +17,8 @@ function Header() {
                 </div>
                 <input 
                     className="header_searchInput"
-                    type="text" />
+                    type="text" 
+                    placeholder="Search Amazon"/>
                 <SearchIcon 
                     className="header_searchIcon" />
             </div>
