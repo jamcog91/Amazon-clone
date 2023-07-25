@@ -2,25 +2,25 @@ import './App.css';
 import Header from './Header.js';
 import Home from './Home';
 import Checkout from './Checkout';
-// import { BrouserRouter as Router, Switch, Route } from './react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
 function App() {
   return (
-    // <Router>
+    <Router>
       <div className="app">
-        {/* <Switch>
-          <Route path="/"> */}
+        <Switch>
+          <Route path="/">
             <Header />
             <Home />
-          {/* </Route> */}
-          {/* // <Route path="/checkout"> */}
+          </Route>
+            <Route path="/checkout">
             <Header />
             <Checkout />
-          {/* </Route>
-        </Switch> */}
+          </Route>
+        </Switch>
       </div>
-    // </Router>
+    </Router>
   );
 };
 
