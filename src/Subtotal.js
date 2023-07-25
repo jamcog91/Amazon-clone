@@ -5,7 +5,7 @@ function Subtotal() {
     return(
         <div className="subtotal">
             {/* <CurrencyFormat 
-                renderText={(value) => {
+                renderText={(value) => { */}
                     <>
                         <p>
                             Subtotal (0 items):
@@ -15,7 +15,7 @@ function Subtotal() {
                             <input type="checkbox" />This order contains a gift
                         </small>
                     </>
-                }}
+                {/* }}
                 decimalScale={2}
                 value={0}
                 displayType={"text"}
