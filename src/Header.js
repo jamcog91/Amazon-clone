@@ -15,6 +15,10 @@ function Header() {
         navigate('/')
     };
 
+    const LogIn = () => {
+        navigate('/login')
+    }
+
     return(
         <div className='header'>
             <img 
@@ -35,7 +39,7 @@ function Header() {
                     className="header_searchIcon" />
             </div>
             <div className="header_nav">
-                <div className="header_option">
+                <div className="header_option" onClick={LogIn}>
                     <span className='header_optionLineOne'>Hello Guest</span>
                     <span className='header_optionLineTwo'>Sign In</span>
                 </div>
