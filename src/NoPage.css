@@ -1,3 +1,10 @@
 .error__message {
-    
+   text-align: center;
+   margin-top: 200px;
+}
+
+.search__off {
+    margin: auto;
+    width: 1%;
+    margin-top: 20px;
 }
