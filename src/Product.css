@@ -10,6 +10,11 @@
     min-width: 100px;
     background-color: white;
     z-index: 1;
+    transition: box-shadow 0.3s;
+}
+
+.product:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
 .product__rating {
@@ -23,6 +28,7 @@
     width: 100%;
     object-fit: contain;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .product_info {
@@ -37,7 +43,14 @@
 .product__button {
     background: #f0c14b;
     border: 1px solid;
-    margin-top: 10px;
+    margin-top: 20px;
     border-color: #a88734 #9c7e31 #b46a29;
     color: #111;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.product__button:hover {
+    transform: translateY(-4px);
 }

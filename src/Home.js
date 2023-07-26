@@ -12,7 +12,6 @@ function Home() {
                     alt="amazon__background"
                 />
                 <div className="home__row"> 
-                    {/* {product} */}
                     <Product 
                         id={1}
                         title="Amazon Basic Cast Iron Kettlebell"

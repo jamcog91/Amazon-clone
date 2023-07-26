@@ -13,7 +13,7 @@ function Subtotal() {
                             <strong>0</strong>
                         </p>
                         <small className="subtotal__gift">
-                            <input type="checkbox" />This order contains a gift
+                            <input type="checkbox" className="gift__checkbox" />This order contains a gift
                         </small>
                     </>
                 {/* }}
@@ -24,7 +24,7 @@ function Subtotal() {
                 prefix={"$"}
             /> */}
 
-            <button>Proceed to Checkout</button>
+            <button className="checkout__button">Proceed to Checkout</button>
         </div>
     );
 };
