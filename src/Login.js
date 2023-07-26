@@ -12,13 +12,13 @@ function Login() {
             </Link>
 
             <div className="login__container">
-                <h1>Sign In</h1>
+                <h1>Sign-In</h1>
 
                 <form>
-                    <h2>E-mail</h2>
+                    <h5>E-mail</h5>
                     <input type="text" />
 
-                    <h3>Password</h3>
+                    <h5>Password</h5>
                     <input type="text" />
 
                     <button className="login__signInButton">Sign In</button>
