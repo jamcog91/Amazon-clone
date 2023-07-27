@@ -49,6 +49,7 @@
     cursor: pointer;
     border-radius: 3px;
     transition: .3s;
+    width: 60%;
 }
 
 .product__button:hover {

@@ -35,8 +35,8 @@ function Product({ id,  title, price, image, rating }) {
                     src={image}
                     alt="kettle_bell"
                 />
-                <button className="product__button">Add to Basket</button>
             </div>
+                <button className="product__button">Add to Basket</button>
         </div>
     );
 };
