@@ -1,6 +1,7 @@
 import "./Login.css";
 import { Link } from "react-router-dom";
 import { useState } from 'react'
+// import { auth } from "./firebase";
 
 function Login() {
     const [email, setEmail] = useState('');
@@ -12,6 +13,13 @@ function Login() {
 
     const register = e => {
         e.preventDefault();
+        // auth
+        //     .createUserWithEmailAndPassword(email,password);
+        //     .then((auth) => {
+        //         console.log(auth);
+        //     })
+        //     .catch(error => alert(error.message))
+
     };
 
     return(
@@ -19,6 +27,7 @@ function Login() {
             <Link to="/">
                 <img 
                     className="login__logo"
+                    alt="login"
                     src="https://www.shutterstock.com/image-vector/amazon-vector-logo-editorial-icon-260nw-2308224611.jpg"
                 />
             </Link>

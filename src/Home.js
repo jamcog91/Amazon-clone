@@ -26,16 +26,30 @@ function Home() {
                         image='https://cdn.shopify.com/s/files/1/0575/5401/0306/t/15/assets/acf.Adjustable-Dumbbell-Pair-Main.png?v=1635535324'
                         rating={4}
                     />
+                    <Product 
+                        id={3}
+                        title="Amazon Basic Neoprene Workout Dumbbells "
+                        price={49.99}
+                        image='https://images-na.ssl-images-amazon.com/images/I/81yjPYQIBcL._AC_UL232_SR232,232_.jpg'
+                        rating={4}
+                    />
                 </div>
                 <div className="home__row"> 
                     <Product 
-                        id={3}
+                        id={4}
                         title="Amazon Basic 1/2-Inch Extra Thick Exercise Yoga Mat"
                         price={23.95}
                         image='https://m.media-amazon.com/images/I/81chpv2CQLL._AC_UF1000,1000_QL80_.jpg'
                         rating={4}/>
                     <Product 
-                        id={4}
+                        id={5}
+                        title="Amazon Basic Medicine Ball For Workouts Exercise Balance Training"
+                        price={41.63}
+                        image='https://nwscdn.com/media/catalog/product/m/e/medicine-ball-10kg.jpg'
+                        rating={3}
+                    />
+                    <Product 
+                        id={6}
                         title="Amazon Basic Medicine Ball For Workouts Exercise Balance Training"
                         price={41.63}
                         image='https://nwscdn.com/media/catalog/product/m/e/medicine-ball-10kg.jpg'
@@ -44,7 +58,14 @@ function Home() {
                 </div>
                 <div className="home__row"> 
                     <Product 
-                        id={5}
+                        id={7}
+                        title="Amazon Basics Adujustable Weight Workout Bench"
+                        price={69.99}
+                        image="https://luspersports.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_600x.jpg?v=1688368986"
+                        rating={4}
+                    />
+                    <Product 
+                        id={8}
                         title="Amazon Basics Adujustable Weight Workout Bench"
                         price={69.99}
                         image="https://luspersports.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_600x.jpg?v=1688368986"
